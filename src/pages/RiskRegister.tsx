@@ -113,7 +113,7 @@ export default function RiskRegister() {
         {/* Inherent Risk Pie */}
         <Card className="flex flex-col items-center p-2 relative min-h-[140px]">
           <div className="absolute top-2 left-3 text-xs font-semibold text-slate-500">Inherent Risk</div>
-          <div className="w-24 h-24 relative pt-4">
+          <div className="w-24 h-24 relative pt-4 mx-auto">
              <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
                   <Pie data={inherentPieData} cx="50%" cy="50%" innerRadius={25} outerRadius={40} dataKey="value">
@@ -139,7 +139,7 @@ export default function RiskRegister() {
         {/* Residual Risk Pie */}
         <Card className="flex flex-col items-center p-2 relative min-h-[140px]">
            <div className="absolute top-2 left-3 text-xs font-semibold text-slate-500">Residual Risk</div>
-          <div className="w-24 h-24 relative pt-4">
+          <div className="w-24 h-24 relative pt-4 mx-auto">
              <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
                   <Pie data={residualPieData} cx="50%" cy="50%" innerRadius={25} outerRadius={40} dataKey="value">
